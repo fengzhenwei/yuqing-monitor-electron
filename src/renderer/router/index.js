@@ -11,8 +11,43 @@ export default new Router({
       component: require('@/components/LandingPage').default
     },
     {
+      path: '/home',
+      name: 'home',
+      component: require('@/components/Home').default
+    },
+    {
+      path: '/report',
+      name: 'report',
+      component: require('@/components/Report').default
+    },
+    {
+      path: '/negativereport',
+      name: 'negativereport',
+      component: require('@/components/NegativeReport').default
+    },
+    {
+      path: '/positivereport',
+      name: 'positivereport',
+      component: require('@/components/PositiveReport').default
+    },
+    {
+      path: '/keyword',
+      name: 'keyword',
+      component: require('@/components/KeyWord').default
+    },
+    {
+      path: '/alarm',
+      name: 'alarm',
+      component: require('@/components/Alarm').default
+    },
+    {
+      path: '/msg',
+      name: 'msg',
+      component: require('@/components/Msg').default
+    },
+    {
       path: '*',
-      redirect: '/'
+      redirect: '/home'
     }
   ]
 })
