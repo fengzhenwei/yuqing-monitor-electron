@@ -2,6 +2,20 @@
 
 > An electron-vue project
 
+1. vue init simulatedgreg/electron-vue yuqing-monitor-electron
+
+2. cd yuqing-monitor-electron
+
+3. npm install
+
+4. npm install --save element-ui highcharts js-md5 node-sass sass-loader vue-socket.io vue-highcharts
+
+5. npm install --save-dev babili-webpack-plugin
+
+6. git init
+
+7. git remote add origin https://github.com/fengzhenwei/yuqing-monitor-electron.git
+
 #### Build Setup
 
 ``` bash
