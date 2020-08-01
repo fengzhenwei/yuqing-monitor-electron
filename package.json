@@ -54,10 +54,15 @@
     }
   },
   "dependencies": {
-    "vue": "^2.5.16",
     "axios": "^0.18.0",
+    "element-ui": "^2.13.2",
+    "highcharts": "^8.1.2",
+    "js-md5": "^0.7.3",
+    "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
+    "vue-highcharts": "^0.1.0",
     "vue-router": "^3.0.1",
+    "vue-socket.io": "^3.0.10",
     "vuex": "^3.0.1",
     "vuex-electron": "^1.0.0"
   },
@@ -99,9 +104,9 @@
     "mocha": "^5.2.0",
     "multispinner": "^0.2.1",
     "node-loader": "^0.6.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.14.1",
     "require-dir": "^1.0.0",
-    "sass-loader": "^7.0.3",
+    "sass-loader": "^7.3.1",
     "spectron": "^3.8.0",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
